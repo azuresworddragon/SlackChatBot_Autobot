@@ -1,17 +1,27 @@
-message:
-[
-  {
-    "text": "Can you help me?",
-    "username": "bbansal",
-    "mrkdwn": true
-  },
-  {
-    "text": "Create VM",
-    "username": "bbansal",
-    "mrkdwn": true
-  }
-]
-session:
-  {
-    "sessionId" : "123456"
-  }
+slack_token:
+{
+  "token": "-xoxp-227376867571-226929970017-256158860965-c128147f3189eaed0f267f6bbc9f7fcb"
+}
+ditital_ocean_account:
+{
+  "username": "rezvan_m",
+  "token": "123456789"
+}
+
+new_VM:
+    {
+      "name": "flavouredVM",
+      "region": "nc",
+      "size": "512mb",
+      "image": "ubuntu-14-04-x64",
+      "ssh_keys": null,
+      "backups": false,
+      "ipv6": true,
+      "user_data": "Hi. It is my VM",
+      "private_networking": null,
+      "volumes": null,
+      "tags": [
+        "csc510",
+        "AutoBot"
+      ]
+    }
