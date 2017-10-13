@@ -1,3 +1,4 @@
+
 slack_token:
 {
   "token": "-xoxp-227376867571-226929970017-256158860965-c128147f3189eaed0f267f6bbc9f7fcb"
@@ -7,7 +8,7 @@ ditital_ocean_account:
   "username": "rezvan_m",
   "token": "123456789"
 }
-
+//Mock Object for use case 1:
 new_VM:
     {
       "name": "flavouredVM",
@@ -25,3 +26,10 @@ new_VM:
         "AutoBot"
       ]
     }
+//Mock object for case 2:
+
+
+
+
+
+//Mock object for case 3:
