@@ -95,7 +95,7 @@ public class SeleniumSlackTest {
 		// Happy Path
 		LinkedHashMap<String, String> convoSeq = new LinkedHashMap<String, String>();
 		convoSeq.put("save Digital Ocean keys", "Please provide token for your Digital Ocean Account.");
-		convoSeq.put("8f057609f00e98176c3edeeef5af00fc2588c2d5449845f7158ebbd1e2201fc7", "Please provide ssh key id for your digital ocean account.");
+		convoSeq.put("abcdefghij", "Please provide ssh key id for your digital ocean account.");
 		convoSeq.put("12345678", "Keys Saved successfully");
 		conversation(convoSeq);
 	}
